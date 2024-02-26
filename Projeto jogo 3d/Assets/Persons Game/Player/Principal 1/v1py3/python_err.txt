@@ -1,0 +1,1943 @@
+Initialized logging
+VERSION: 1.2.0 final
+SHORT VERSION: final
+LONG VERSION: 1.2.0 final (HEAD:c28443c2)
+BASEMESH VERSION: hm08
+IS BUILT (FROZEN): No
+IS RELEASE VERSION: Yes
+DEFAULT ENCODING: utf-8
+FILESYSTEM ENCODING: utf-8
+STDOUT ENCODING: cp1252
+LOCALE PREFERRED ENCODING: cp1252
+WORKING DIRECTORY: C:\Users\joaoa\AppData\Local\makehuman-community\makehuman
+HOME LOCATION: C:/Users/joaoa/OneDrive/Documents
+PYTHON PATH: ./;./lib;./apps;./shared;./apps/gui;./core;C:\Users\joaoa\AppData\Local\makehuman-community\Python\python37.zip;C:\Users\joaoa\AppData\Local\makehuman-community\Python;C:\Users\joaoa\AppData\Local\makehuman-community\pkgs
+DLL PATH: C:\Users\joaoa\AppData\Local\makehuman-community\pkgs\PyQt5\Qt\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\joaoa\AppData\Local\Microsoft\WindowsApps;C:\Users\joaoa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\joaoa\AppData\Local\GitHubDesktop\bin
+SYS.VERSION: 3.7.6 (tags/v3.7.6:43364a7ae0, Dec 19 2019, 00:42:30) [MSC v.1916 64 bit (AMD64)]
+SYS.PLATFORM: win32
+SYS.EXECUTABLE: C:\Users\joaoa\AppData\Local\makehuman-community\Python\pythonw.exe
+PLATFORM.MACHINE: AMD64
+PLATFORM.PROCESSOR: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+PLATFORM.UNAME.RELEASE: 10
+PLATFORM.WIN32_VER: 10 10.0.22621 SP0 
+NUMPY.VERSION: 1.18.1
+No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+QT.VERSION: 5.12.7
+QT.JPG_SUPPORT: supported
+QT.SVG_SUPPORT: supported
+QT.PLUGIN_PATH: C:/Users/joaoa/AppData/Local/makehuman-community/pkgs/PyQt5/Qt/plugins;C:/Users/joaoa/AppData/Local/makehuman-community/Python
+QT.PLUGIN_PATH_ENV: 
+QT.CONF: NOT PRESENT
+PYOPENGL.VERSION: 3.1.0
+NOSHADERS: not set
+NOSAMPLEBUFFERS: not set
+GL.VENDOR: Intel
+GL.RENDERER: Intel(R) Iris(R) Xe Graphics
+GL.VERSION: 4.6.0 - Build 31.0.101.4032
+4.60 - Build 31.0.101.4032
+GLSL.VERSION: 4.60 - Build 31.0.101.4032
+GL.EXTENSION: GL_ARB_multisample enabled (4x samples)
+Creating new texture for image data/textures/texture_notfound.png.
+GL.EXTENSION: GL_ARB_texture_non_power_of_two enabled
+initTexture: 256, 256, False
+Setting language to english
+No settings file found, starting with default settings.
+Incompatible MakeHuman settings (version undefined) detected (expected 1.2.0). Loading default settings.
+Setting language to english
+shortcuts.ini out of date; ignoring
+Initializing default theme first.
+Theme default version 1.2.0
+Loaded theme data/themes/default.mht
+Using Qt system style windowsvista
+Loading human
+Loading binary mesh data/3dobjs/base.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+Loading material from file data/skins/default.mhmat
+Shader: adding built-in uniform b'gl_NormalMatrix'
+Shader: adding built-in uniform b'gl_ModelViewProjectionMatrix'
+VectorUniform(AdditiveShading) = [0.]
+VectorUniform(AdditiveShading) = [0.]
+Loaded vertex weights MakeHuman weights from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/rigs/default_weights.mhw
+Loading scene
+Loading scene file: data/scenes/default.mhscene
+Loading main GUI
+Loading plugins
+Importing plugin 0_modeling_0_modifiers
+Imported plugin 0_modeling_0_modifiers
+Loading plugin 0_modeling_0_modifiers
+Loading modifiers from data/modifiers/modeling_modifiers.json
+Attempting to load targets from NPZ file.
+1258 targets loaded from NPZ file succesfully.
+Loaded 249 modifiers from file data/modifiers/modeling_modifiers.json
+Loaded 249 modifier descriptions from file data/modifiers/modeling_modifiers_desc.json
+Loaded plugin 0_modeling_0_modifiers
+Importing plugin 0_modeling_8_random
+Imported plugin 0_modeling_8_random
+Loading plugin 0_modeling_8_random
+Loaded plugin 0_modeling_8_random
+Importing plugin 0_modeling_9_custom_targets
+Imported plugin 0_modeling_9_custom_targets
+Loading plugin 0_modeling_9_custom_targets
+Loaded plugin 0_modeling_9_custom_targets
+Importing plugin 0_modeling_a_measurement
+Imported plugin 0_modeling_a_measurement
+Loading plugin 0_modeling_a_measurement
+Loading modifiers from data/modifiers/measurement_modifiers.json
+Loaded 20 modifiers from file data/modifiers/measurement_modifiers.json
+Loaded 20 modifier descriptions from file data/modifiers/measurement_modifiers_desc.json
+Loaded plugin 0_modeling_a_measurement
+Importing plugin 0_modeling_background
+Imported plugin 0_modeling_background
+Loading plugin 0_modeling_background
+Loaded plugin 0_modeling_background
+Importing plugin 1_convert_model_tags
+Imported plugin 1_convert_model_tags
+Loading plugin 1_convert_model_tags
+Loaded plugin 1_convert_model_tags
+Importing plugin 1_mhapi
+Imported plugin 1_mhapi
+Loading plugin 1_mhapi
+Loaded plugin 1_mhapi
+Importing plugin 2_foot_posing
+Imported plugin 2_foot_posing
+Loading plugin 2_foot_posing
+Loaded plugin 2_foot_posing
+Importing plugin 2_posing_expression
+Imported plugin 2_posing_expression
+Loading plugin 2_posing_expression
+Loaded plugin 2_posing_expression
+Importing plugin 3_libraries_clothes_chooser
+Imported plugin 3_libraries_clothes_chooser
+Loading plugin 3_libraries_clothes_chooser
+Loaded plugin 3_libraries_clothes_chooser
+Importing plugin 3_libraries_eye_chooser
+Imported plugin 3_libraries_eye_chooser
+Loading plugin 3_libraries_eye_chooser
+According to mh.getSysDataPath here's high poly eyes data/eyes/high-poly/high-poly.mhclo
+Selecting proxy file "data/eyes/high-poly/high-poly.mhclo" from eyes library.
+Loading binary proxy data/eyes/high-poly/high-poly.mhpxy.
+Loading proxy file: data/eyes/high-poly/high-poly.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyes/materials/brown.mhmat
+Shader: adding built-in uniform b'gl_NormalMatrix'
+Shader: adding built-in uniform b'gl_ModelViewProjectionMatrix'
+VectorUniform(AdditiveShading) = [0.]
+VectorUniform(AdditiveShading) = [0.]
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyes/high-poly/high-poly.npz.
+NPZ-File: maxmimum number of faces for one vertex: 4
+remapping weights for proxy HighPolyEyes
+remapping weights for HighPolyEyes took 0.02764 seconds
+Loaded plugin 3_libraries_eye_chooser
+Importing plugin 3_libraries_eyebrows
+Imported plugin 3_libraries_eyebrows
+Loading plugin 3_libraries_eyebrows
+Loaded plugin 3_libraries_eyebrows
+Importing plugin 3_libraries_eyelashes
+Imported plugin 3_libraries_eyelashes
+Loading plugin 3_libraries_eyelashes
+Loaded plugin 3_libraries_eyelashes
+Importing plugin 3_libraries_material_chooser
+Imported plugin 3_libraries_material_chooser
+Loading plugin 3_libraries_material_chooser
+Loaded plugin 3_libraries_material_chooser
+Importing plugin 3_libraries_polygon_hair_chooser
+Imported plugin 3_libraries_polygon_hair_chooser
+Loading plugin 3_libraries_polygon_hair_chooser
+Loaded plugin 3_libraries_polygon_hair_chooser
+Importing plugin 3_libraries_pose
+Imported plugin 3_libraries_pose
+Loading plugin 3_libraries_pose
+Loaded plugin 3_libraries_pose
+Importing plugin 3_libraries_proxy_chooser
+Imported plugin 3_libraries_proxy_chooser
+Loading plugin 3_libraries_proxy_chooser
+Loaded plugin 3_libraries_proxy_chooser
+Importing plugin 3_libraries_skeleton
+Imported plugin 3_libraries_skeleton
+Loading plugin 3_libraries_skeleton
+Loaded plugin 3_libraries_skeleton
+Importing plugin 3_libraries_teeth
+Imported plugin 3_libraries_teeth
+Loading plugin 3_libraries_teeth
+Loaded plugin 3_libraries_teeth
+Importing plugin 3_libraries_tongue
+Imported plugin 3_libraries_tongue
+Loading plugin 3_libraries_tongue
+Loaded plugin 3_libraries_tongue
+Importing plugin 4_rendering_9_viewer
+Imported plugin 4_rendering_9_viewer
+Loading plugin 4_rendering_9_viewer
+Loaded plugin 4_rendering_9_viewer
+Importing plugin 4_rendering_opengl
+Imported plugin 4_rendering_opengl
+Loading plugin 4_rendering_opengl
+Loaded plugin 4_rendering_opengl
+Importing plugin 4_rendering_scene
+Imported plugin 4_rendering_scene
+Loading plugin 4_rendering_scene
+Setting rendering_width is already declared. Adding it again has no effect.
+Setting rendering_height is already declared. Adding it again has no effect.
+Loaded plugin 4_rendering_scene
+Importing plugin 5_settings_0_settings
+Imported plugin 5_settings_0_settings
+Loading plugin 5_settings_0_settings
+Setting language to english
+Theme makehuman version 1.2.0
+Loaded theme data/themes/makehuman.mht
+Loaded Qt style data/themes/makehuman.qss
+Loaded plugin 5_settings_0_settings
+Importing plugin 5_settings_mouse
+Imported plugin 5_settings_mouse
+Loading plugin 5_settings_mouse
+Loaded plugin 5_settings_mouse
+Importing plugin 5_settings_shortcuts
+Imported plugin 5_settings_shortcuts
+Loading plugin 5_settings_shortcuts
+Loaded plugin 5_settings_shortcuts
+Importing plugin 5_settings_userplugins
+Imported plugin 5_settings_userplugins
+Loading plugin 5_settings_userplugins
+Loaded plugin 5_settings_userplugins
+Importing plugin 6_help
+Imported plugin 6_help
+Loading plugin 6_help
+Loaded plugin 6_help
+Importing plugin 7_expression_mixer
+Imported plugin 7_expression_mixer
+Loading plugin 7_expression_mixer
+Loaded plugin 7_expression_mixer
+Importing plugin 7_logging
+Imported plugin 7_logging
+Loading plugin 7_logging
+Loaded plugin 7_logging
+Importing plugin 8_asset_downloader
+Imported plugin 8_asset_downloader
+Loading plugin 8_asset_downloader
+Loaded plugin 8_asset_downloader
+Importing plugin 8_server_socket
+Imported plugin 8_server_socket
+Loading plugin 8_server_socket
+Loaded plugin 8_server_socket
+Importing plugin 9_export_bvh
+Imported plugin 9_export_bvh
+Loading plugin 9_export_bvh
+Loaded plugin 9_export_bvh
+Importing plugin 9_export_collada
+Imported plugin 9_export_collada
+Loading plugin 9_export_collada
+Loaded plugin 9_export_collada
+Importing plugin 9_export_fbx
+Imported plugin 9_export_fbx
+Loading plugin 9_export_fbx
+Loaded plugin 9_export_fbx
+Importing plugin 9_export_light
+Imported plugin 9_export_light
+Loading plugin 9_export_light
+Loaded plugin 9_export_light
+Importing plugin 9_export_mhx2
+Imported plugin 9_export_mhx2
+Loading plugin 9_export_mhx2
+Loaded plugin 9_export_mhx2
+Importing plugin 9_export_obj
+Imported plugin 9_export_obj
+Loading plugin 9_export_obj
+Loaded plugin 9_export_obj
+Importing plugin 9_export_ogre
+Imported plugin 9_export_ogre
+Loading plugin 9_export_ogre
+Loaded plugin 9_export_ogre
+Importing plugin 9_export_stl
+Imported plugin 9_export_stl
+Loading plugin 9_export_stl
+Loaded plugin 9_export_stl
+Importing plugin 9_export_uvmap
+Imported plugin 9_export_uvmap
+Loading plugin 9_export_uvmap
+Loaded plugin 9_export_uvmap
+Importing plugin 9_massproduce
+Imported plugin 9_massproduce
+Loading plugin 9_massproduce
+Loaded plugin 9_massproduce
+Loading GUI
+showing category Modelling
+showing task Macro modelling
+Loading theme
+Theme makehuman version 1.2.0
+Loaded theme data/themes/makehuman.mht
+Loaded Qt style data/themes/makehuman.qss
+Applying targets
+Updating skeleton joint positions
+Done baking animations
+Loading macro targets
+Loading done
+
+Creating new texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyes/materials/brown_eye.png.
+initTexture: 1024, 1024, False
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/litspheres/skinmat_eye.png.
+initTexture: 256, 256, False
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Reloading texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+hiding task Macro modelling
+showing task Gender
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+hiding task Gender
+showing task Face
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+hiding task Face
+showing task Torso
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+hiding task Torso
+showing task Arms and Legs
+hiding task Arms and Legs
+showing task Random
+hiding task Random
+showing task Custom
+hiding task Custom
+showing task Measure
+hiding task Measure
+showing task Face
+hiding task Face
+showing task Gender
+hiding task Gender
+showing task Macro modelling
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+hiding task Macro modelling
+showing task Gender
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+hiding category Modelling
+showing category Community
+hiding task Gender
+showing task Download assets
+hiding task Download assets
+showing task Mass produce
+hiding task Mass produce
+showing task Socket
+hiding task Socket
+showing task Download assets
+hiding task Download assets
+showing task Socket
+hiding task Socket
+showing task Mass produce
+hiding task Mass produce
+showing task Socket
+hiding task Socket
+showing task Download assets
+hiding task Download assets
+showing task Mass produce
+Loading material from file C:\Users\joaoa\AppData\Local\makehuman-community\makehuman\data\skins\young_african_male\young_african_male.mhmat
+Shader: adding built-in uniform b'gl_NormalMatrix'
+Shader: adding built-in uniform b'gl_ModelViewProjectionMatrix'
+VectorUniform(AdditiveShading) = [0.]
+VectorUniform(AdditiveShading) = [0.]
+Shader: adding built-in uniform b'gl_NormalMatrix'
+Shader: adding built-in uniform b'gl_ModelViewProjectionMatrix'
+VectorUniform(AdditiveShading) = [0.]
+VectorUniform(AdditiveShading) = [0.]
+Selecting proxy file "data/hair\afro01\afro01.mhpxy" from hair library.
+Loading binary proxy data/hair\afro01\afro01.mhpxy.
+Loading proxy file: data/hair\afro01\afro01.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/afro01/afro01.mhmat
+VectorUniform(ambient) = [0. 0. 0.]
+VectorUniform(diffuse) = [0. 0. 0. 0.]
+VectorUniform(emissive) = [0. 0. 0.]
+VectorUniform(specular) = [0. 0. 0. 0.]
+Shader: adding built-in uniform b'gl_NormalMatrix'
+Shader: adding built-in uniform b'gl_ModelViewMatrix'
+Shader: adding built-in uniform b'gl_LightSource[0].ambient'
+Shader: adding built-in uniform b'gl_LightSource[1].ambient'
+Shader: adding built-in uniform b'gl_LightSource[2].ambient'
+Shader: adding built-in uniform b'gl_LightSource[3].ambient'
+Shader: adding built-in uniform b'gl_LightSource[4].ambient'
+Shader: adding built-in uniform b'gl_LightSource[5].ambient'
+Shader: adding built-in uniform b'gl_LightSource[6].ambient'
+Shader: adding built-in uniform b'gl_LightSource[7].ambient'
+Shader: adding built-in uniform b'gl_LightSource[0].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[1].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[2].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[3].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[4].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[5].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[6].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[7].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[0].specular'
+Shader: adding built-in uniform b'gl_LightSource[1].specular'
+Shader: adding built-in uniform b'gl_LightSource[2].specular'
+Shader: adding built-in uniform b'gl_LightSource[3].specular'
+Shader: adding built-in uniform b'gl_LightSource[4].specular'
+Shader: adding built-in uniform b'gl_LightSource[5].specular'
+Shader: adding built-in uniform b'gl_LightSource[6].specular'
+Shader: adding built-in uniform b'gl_LightSource[7].specular'
+Shader: adding built-in uniform b'gl_LightSource[0].position'
+Shader: adding built-in uniform b'gl_LightSource[1].position'
+Shader: adding built-in uniform b'gl_LightSource[2].position'
+Shader: adding built-in uniform b'gl_LightSource[3].position'
+Shader: adding built-in uniform b'gl_LightSource[4].position'
+Shader: adding built-in uniform b'gl_LightSource[5].position'
+Shader: adding built-in uniform b'gl_LightSource[6].position'
+Shader: adding built-in uniform b'gl_LightSource[7].position'
+Shader: adding built-in uniform b'gl_LightSource[0].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[1].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[2].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[3].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[4].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[5].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[6].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[7].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[0].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[1].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[2].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[3].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[4].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[5].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[6].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[7].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[0].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[1].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[2].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[3].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[4].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[5].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[6].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[7].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[0].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[1].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[2].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[3].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[4].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[5].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[6].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[7].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[0].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[1].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[2].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[3].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[4].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[5].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[6].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[7].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[0].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[1].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[2].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[3].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[4].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[5].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[6].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[7].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[0].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[1].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[2].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[3].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[4].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[5].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[6].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[7].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[0].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[1].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[2].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[3].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[4].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[5].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[6].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[7].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_FrontLightModelProduct.sceneColor'
+Shader: adding built-in uniform b'gl_FrontMaterial.emission'
+Shader: adding built-in uniform b'gl_FrontMaterial.ambient'
+Shader: adding built-in uniform b'gl_FrontMaterial.diffuse'
+Shader: adding built-in uniform b'gl_FrontMaterial.specular'
+Shader: adding built-in uniform b'gl_FrontMaterial.shininess'
+Shader: adding built-in uniform b'gl_ModelViewProjectionMatrix'
+VectorUniform(ambient) = [0. 0. 0.]
+VectorUniform(diffuse) = [0. 0. 0. 0.]
+VectorUniform(emissive) = [0. 0. 0.]
+VectorUniform(specular) = [0. 0. 0. 0.]
+VectorUniform(ambient) = [0. 0. 0.]
+VectorUniform(diffuse) = [0. 0. 0. 0.]
+VectorUniform(emissive) = [0. 0. 0.]
+VectorUniform(specular) = [0. 0. 0. 0.]
+Shader: adding built-in uniform b'gl_NormalMatrix'
+Shader: adding built-in uniform b'gl_ModelViewMatrix'
+Shader: adding built-in uniform b'gl_LightSource[0].ambient'
+Shader: adding built-in uniform b'gl_LightSource[1].ambient'
+Shader: adding built-in uniform b'gl_LightSource[2].ambient'
+Shader: adding built-in uniform b'gl_LightSource[3].ambient'
+Shader: adding built-in uniform b'gl_LightSource[4].ambient'
+Shader: adding built-in uniform b'gl_LightSource[5].ambient'
+Shader: adding built-in uniform b'gl_LightSource[6].ambient'
+Shader: adding built-in uniform b'gl_LightSource[7].ambient'
+Shader: adding built-in uniform b'gl_LightSource[0].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[1].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[2].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[3].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[4].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[5].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[6].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[7].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[0].specular'
+Shader: adding built-in uniform b'gl_LightSource[1].specular'
+Shader: adding built-in uniform b'gl_LightSource[2].specular'
+Shader: adding built-in uniform b'gl_LightSource[3].specular'
+Shader: adding built-in uniform b'gl_LightSource[4].specular'
+Shader: adding built-in uniform b'gl_LightSource[5].specular'
+Shader: adding built-in uniform b'gl_LightSource[6].specular'
+Shader: adding built-in uniform b'gl_LightSource[7].specular'
+Shader: adding built-in uniform b'gl_LightSource[0].position'
+Shader: adding built-in uniform b'gl_LightSource[1].position'
+Shader: adding built-in uniform b'gl_LightSource[2].position'
+Shader: adding built-in uniform b'gl_LightSource[3].position'
+Shader: adding built-in uniform b'gl_LightSource[4].position'
+Shader: adding built-in uniform b'gl_LightSource[5].position'
+Shader: adding built-in uniform b'gl_LightSource[6].position'
+Shader: adding built-in uniform b'gl_LightSource[7].position'
+Shader: adding built-in uniform b'gl_LightSource[0].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[1].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[2].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[3].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[4].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[5].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[6].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[7].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[0].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[1].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[2].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[3].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[4].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[5].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[6].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[7].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[0].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[1].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[2].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[3].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[4].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[5].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[6].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[7].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[0].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[1].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[2].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[3].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[4].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[5].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[6].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[7].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[0].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[1].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[2].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[3].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[4].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[5].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[6].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[7].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[0].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[1].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[2].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[3].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[4].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[5].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[6].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[7].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[0].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[1].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[2].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[3].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[4].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[5].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[6].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[7].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[0].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[1].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[2].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[3].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[4].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[5].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[6].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[7].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_FrontLightModelProduct.sceneColor'
+Shader: adding built-in uniform b'gl_FrontMaterial.emission'
+Shader: adding built-in uniform b'gl_FrontMaterial.ambient'
+Shader: adding built-in uniform b'gl_FrontMaterial.diffuse'
+Shader: adding built-in uniform b'gl_FrontMaterial.specular'
+Shader: adding built-in uniform b'gl_FrontMaterial.shininess'
+Shader: adding built-in uniform b'gl_ModelViewProjectionMatrix'
+VectorUniform(ambient) = [0. 0. 0.]
+VectorUniform(diffuse) = [0. 0. 0. 0.]
+VectorUniform(emissive) = [0. 0. 0.]
+VectorUniform(specular) = [0. 0. 0. 0.]
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/afro01/afro01.npz.
+NPZ-File: maxmimum number of faces for one vertex: 4
+remapping weights for proxy afro01
+remapping weights for afro01 took 0.05204 seconds
+do Change hair
+Selecting proxy file "data/eyebrows\eyebrow005\eyebrow005.mhpxy" from eyebrows library.
+Loading binary proxy data/eyebrows\eyebrow005\eyebrow005.mhpxy.
+Loading proxy file: data/eyebrows\eyebrow005\eyebrow005.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyebrows/eyebrow005/eyebrow005.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyebrows/eyebrow005/eyebrow005.npz.
+NPZ-File: maxmimum number of faces for one vertex: 4
+remapping weights for proxy eyebrow005
+remapping weights for eyebrow005 took 0.02251 seconds
+do Change eyebrows
+Selecting proxy file "data/eyelashes\eyelashes02\eyelashes02.mhpxy" from eyelashes library.
+Loading binary proxy data/eyelashes\eyelashes02\eyelashes02.mhpxy.
+Loading proxy file: data/eyelashes\eyelashes02\eyelashes02.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyelashes/eyelashes02/eyelashes02.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyelashes/eyelashes02/eyelashes02.npz.
+NPZ-File: maxmimum number of faces for one vertex: 4
+remapping weights for proxy eyelashes02
+remapping weights for eyelashes02 took 0.02273 seconds
+do Change eyelashes
+Selecting proxy file "data/clothes\male_casualsuit01\male_casualsuit01.mhpxy" from clothes library.
+Loading binary proxy data/clothes\male_casualsuit01\male_casualsuit01.mhpxy.
+Loading proxy file: data/clothes\male_casualsuit01\male_casualsuit01.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/male_casualsuit01/male_casualsuit01.mhmat
+Shader: adding built-in uniform b'gl_NormalMatrix'
+Shader: adding built-in uniform b'gl_ModelViewProjectionMatrix'
+VectorUniform(AdditiveShading) = [0.]
+VectorUniform(normalmapIntensity) = [1.]
+VectorUniform(AdditiveShading) = [0.]
+VectorUniform(normalmapIntensity) = [1.]
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/male_casualsuit01/male_casualsuit01.npz.
+NPZ-File: maxmimum number of faces for one vertex: 6
+remapping weights for proxy male_casualsuit01
+remapping weights for male_casualsuit01 took 0.17950 seconds
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for male_casualsuit01.obj
+Loaded 8430 deleted verts (7938 faces) from male_casualsuit01 proxy.
+7770 faces masked for base.obj
+do Change clothes
+Selecting proxy file "data/clothes\shoes05\shoes05.mhpxy" from clothes library.
+Loading binary proxy data/clothes\shoes05\shoes05.mhpxy.
+Loading proxy file: data/clothes\shoes05\shoes05.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes05/shoes05.mhmat
+Loaded vertex weights Shoes05 weights from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes05/shoes05.mhw
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes05/shoes05.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for male_casualsuit01.obj
+Loaded 8430 deleted verts (7938 faces) from male_casualsuit01 proxy.
+106 faces masked for shoes05.obj
+Loaded 3206 deleted verts (3150 faces) from shoes05 proxy.
+10736 faces masked for base.obj
+do Change clothes
+do Change hair
+do Change eyebrows
+do Change eyelashes
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for shoes05.obj
+Loaded 3206 deleted verts (3150 faces) from shoes05 proxy.
+3074 faces masked for base.obj
+do Change clothes
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for base.obj
+do Change clothes
+Updating skeleton joint positions
+Done baking animations
+Loading material from file C:\Users\joaoa\AppData\Local\makehuman-community\makehuman\data\skins\old_african_male\old_african_male.mhmat
+Selecting proxy file "data/hair\short04\short04.mhpxy" from hair library.
+Loading binary proxy data/hair\short04\short04.mhpxy.
+Loading proxy file: data/hair\short04\short04.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short04/short04.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short04/short04.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+remapping weights for proxy short04
+remapping weights for short04 took 0.03218 seconds
+do Change hair
+Selecting proxy file "data/eyebrows\eyebrow008\eyebrow008.mhpxy" from eyebrows library.
+Loading binary proxy data/eyebrows\eyebrow008\eyebrow008.mhpxy.
+Loading proxy file: data/eyebrows\eyebrow008\eyebrow008.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyebrows/eyebrow008/eyebrow008.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyebrows/eyebrow008/eyebrow008.npz.
+NPZ-File: maxmimum number of faces for one vertex: 4
+remapping weights for proxy eyebrow008
+remapping weights for eyebrow008 took 0.02178 seconds
+do Change eyebrows
+Selecting proxy file "data/eyelashes\eyelashes02\eyelashes02.mhpxy" from eyelashes library.
+Loading binary proxy data/eyelashes\eyelashes02\eyelashes02.mhpxy.
+Loading proxy file: data/eyelashes\eyelashes02\eyelashes02.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyelashes/eyelashes02/eyelashes02.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyelashes/eyelashes02/eyelashes02.npz.
+NPZ-File: maxmimum number of faces for one vertex: 4
+remapping weights for proxy eyelashes02
+remapping weights for eyelashes02 took 0.02303 seconds
+do Change eyelashes
+Selecting proxy file "data/clothes\male_worksuit01\male_worksuit01.mhpxy" from clothes library.
+Loading binary proxy data/clothes\male_worksuit01\male_worksuit01.mhpxy.
+Loading proxy file: data/clothes\male_worksuit01\male_worksuit01.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/male_worksuit01/male_worksuit01.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/male_worksuit01/male_worksuit01.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+remapping weights for proxy male_worksuit01
+remapping weights for male_worksuit01 took 0.12408 seconds
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for male_worksuit01.obj
+Loaded 2868 deleted verts (2932 faces) from male_worksuit01 proxy.
+2810 faces masked for base.obj
+do Change clothes
+Selecting proxy file "data/clothes\shoes04\shoes04.mhpxy" from clothes library.
+Loading binary proxy data/clothes\shoes04\shoes04.mhpxy.
+Loading proxy file: data/clothes\shoes04\shoes04.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes04/shoes04.mhmat
+Loaded vertex weights Shoes04 weights from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes04/shoes04.mhw
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes04/shoes04.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for male_worksuit01.obj
+Loaded 2868 deleted verts (2932 faces) from male_worksuit01 proxy.
+0 faces masked for shoes04.obj
+Loaded 3206 deleted verts (3150 faces) from shoes04 proxy.
+5804 faces masked for base.obj
+do Change clothes
+do Change hair
+do Change eyebrows
+do Change eyelashes
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for shoes04.obj
+Loaded 3206 deleted verts (3150 faces) from shoes04 proxy.
+3074 faces masked for base.obj
+do Change clothes
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for base.obj
+do Change clothes
+Updating skeleton joint positions
+Done baking animations
+Loading material from file C:\Users\joaoa\AppData\Local\makehuman-community\makehuman\data\skins\middleage_asian_male\middleage_asian_male.mhmat
+Selecting proxy file "data/hair\short01\short01.mhpxy" from hair library.
+Loading binary proxy data/hair\short01\short01.mhpxy.
+Loading proxy file: data/hair\short01\short01.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short01/short01.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short01/short01.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+remapping weights for proxy short01
+remapping weights for short01 took 0.03650 seconds
+do Change hair
+Selecting proxy file "data/eyebrows\eyebrow006\eyebrow006.mhpxy" from eyebrows library.
+Loading binary proxy data/eyebrows\eyebrow006\eyebrow006.mhpxy.
+Loading proxy file: data/eyebrows\eyebrow006\eyebrow006.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyebrows/eyebrow006/eyebrow006.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyebrows/eyebrow006/eyebrow006.npz.
+NPZ-File: maxmimum number of faces for one vertex: 4
+remapping weights for proxy eyebrow006
+remapping weights for eyebrow006 took 0.03656 seconds
+do Change eyebrows
+Selecting proxy file "data/eyelashes\eyelashes04\eyelashes04.mhpxy" from eyelashes library.
+Loading binary proxy data/eyelashes\eyelashes04\eyelashes04.mhpxy.
+Loading proxy file: data/eyelashes\eyelashes04\eyelashes04.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyelashes/eyelashes04/eyelashes04.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyelashes/eyelashes04/eyelashes04.npz.
+NPZ-File: maxmimum number of faces for one vertex: 4
+remapping weights for proxy eyelashes04
+remapping weights for eyelashes04 took 0.03084 seconds
+do Change eyelashes
+Selecting proxy file "data/clothes\male_worksuit01\male_worksuit01.mhpxy" from clothes library.
+Loading binary proxy data/clothes\male_worksuit01\male_worksuit01.mhpxy.
+Loading proxy file: data/clothes\male_worksuit01\male_worksuit01.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/male_worksuit01/male_worksuit01.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/male_worksuit01/male_worksuit01.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+remapping weights for proxy male_worksuit01
+remapping weights for male_worksuit01 took 0.12372 seconds
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for male_worksuit01.obj
+Loaded 2868 deleted verts (2932 faces) from male_worksuit01 proxy.
+2810 faces masked for base.obj
+do Change clothes
+Selecting proxy file "data/clothes\shoes06\shoes06.mhpxy" from clothes library.
+Loading binary proxy data/clothes\shoes06\shoes06.mhpxy.
+Loading proxy file: data/clothes\shoes06\shoes06.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes06/shoes06.mhmat
+Loaded vertex weights Shoes06 weights from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes06/shoes06.mhw
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes06/shoes06.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for male_worksuit01.obj
+Loaded 2868 deleted verts (2932 faces) from male_worksuit01 proxy.
+0 faces masked for shoes06.obj
+Loaded 3206 deleted verts (3150 faces) from shoes06 proxy.
+5804 faces masked for base.obj
+do Change clothes
+do Change hair
+do Change eyebrows
+do Change eyelashes
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for shoes06.obj
+Loaded 3206 deleted verts (3150 faces) from shoes06 proxy.
+3074 faces masked for base.obj
+do Change clothes
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for base.obj
+do Change clothes
+Updating skeleton joint positions
+Done baking animations
+Loading material from file C:\Users\joaoa\AppData\Local\makehuman-community\makehuman\data\skins\middleage_caucasian_female\middleage_caucasian_female.mhmat
+Selecting proxy file "data/hair\bob02\bob02.mhpxy" from hair library.
+Loading binary proxy data/hair\bob02\bob02.mhpxy.
+Loading proxy file: data/hair\bob02\bob02.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/bob02/bob02.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/bob02/bob02.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+remapping weights for proxy bob02
+remapping weights for bob02 took 0.04767 seconds
+do Change hair
+Selecting proxy file "data/eyebrows\eyebrow012\eyebrow012.mhpxy" from eyebrows library.
+Loading binary proxy data/eyebrows\eyebrow012\eyebrow012.mhpxy.
+Loading proxy file: data/eyebrows\eyebrow012\eyebrow012.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyebrows/eyebrow012/eyebrow012.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyebrows/eyebrow012/eyebrow012.npz.
+NPZ-File: maxmimum number of faces for one vertex: 4
+remapping weights for proxy eyebrow012
+remapping weights for eyebrow012 took 0.04014 seconds
+do Change eyebrows
+Selecting proxy file "data/eyelashes\eyelashes02\eyelashes02.mhpxy" from eyelashes library.
+Loading binary proxy data/eyelashes\eyelashes02\eyelashes02.mhpxy.
+Loading proxy file: data/eyelashes\eyelashes02\eyelashes02.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyelashes/eyelashes02/eyelashes02.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyelashes/eyelashes02/eyelashes02.npz.
+NPZ-File: maxmimum number of faces for one vertex: 4
+remapping weights for proxy eyelashes02
+remapping weights for eyelashes02 took 0.02517 seconds
+do Change eyelashes
+Selecting proxy file "data/clothes\female_sportsuit01\female_sportsuit01.mhpxy" from clothes library.
+Loading binary proxy data/clothes\female_sportsuit01\female_sportsuit01.mhpxy.
+Loading proxy file: data/clothes\female_sportsuit01\female_sportsuit01.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/female_sportsuit01/female_sportsuit01.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/female_sportsuit01/female_sportsuit01.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+remapping weights for proxy female_sportsuit01
+remapping weights for female_sportsuit01 took 0.05635 seconds
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for female_sportsuit01.obj
+Loaded 4678 deleted verts (4794 faces) from female_sportsuit01 proxy.
+4460 faces masked for base.obj
+do Change clothes
+Selecting proxy file "data/clothes\shoes04\shoes04.mhpxy" from clothes library.
+Loading binary proxy data/clothes\shoes04\shoes04.mhpxy.
+Loading proxy file: data/clothes\shoes04\shoes04.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes04/shoes04.mhmat
+Loaded vertex weights Shoes04 weights from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes04/shoes04.mhw
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes04/shoes04.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for female_sportsuit01.obj
+Loaded 4678 deleted verts (4794 faces) from female_sportsuit01 proxy.
+106 faces masked for shoes04.obj
+Loaded 3206 deleted verts (3150 faces) from shoes04 proxy.
+7346 faces masked for base.obj
+do Change clothes
+do Change hair
+do Change eyebrows
+do Change eyelashes
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for shoes04.obj
+Loaded 3206 deleted verts (3150 faces) from shoes04 proxy.
+3074 faces masked for base.obj
+do Change clothes
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for base.obj
+do Change clothes
+Updating skeleton joint positions
+Done baking animations
+Loading material from file C:\Users\joaoa\AppData\Local\makehuman-community\makehuman\data\skins\old_caucasian_female\old_caucasian_female.mhmat
+Selecting proxy file "data/hair\short03\short03.mhpxy" from hair library.
+Loading binary proxy data/hair\short03\short03.mhpxy.
+Loading proxy file: data/hair\short03\short03.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short03/short03.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short03/short03.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+remapping weights for proxy short03
+remapping weights for short03 took 0.03132 seconds
+do Change hair
+Selecting proxy file "data/eyebrows\eyebrow007\eyebrow007.mhpxy" from eyebrows library.
+Loading binary proxy data/eyebrows\eyebrow007\eyebrow007.mhpxy.
+Loading proxy file: data/eyebrows\eyebrow007\eyebrow007.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyebrows/eyebrow007/eyebrow007.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyebrows/eyebrow007/eyebrow007.npz.
+NPZ-File: maxmimum number of faces for one vertex: 4
+remapping weights for proxy eyebrow007
+remapping weights for eyebrow007 took 0.02836 seconds
+do Change eyebrows
+Selecting proxy file "data/eyelashes\eyelashes02\eyelashes02.mhpxy" from eyelashes library.
+Loading binary proxy data/eyelashes\eyelashes02\eyelashes02.mhpxy.
+Loading proxy file: data/eyelashes\eyelashes02\eyelashes02.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyelashes/eyelashes02/eyelashes02.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyelashes/eyelashes02/eyelashes02.npz.
+NPZ-File: maxmimum number of faces for one vertex: 4
+remapping weights for proxy eyelashes02
+remapping weights for eyelashes02 took 0.02361 seconds
+do Change eyelashes
+Selecting proxy file "data/clothes\female_casualsuit02\female_casualsuit02.mhpxy" from clothes library.
+Loading binary proxy data/clothes\female_casualsuit02\female_casualsuit02.mhpxy.
+Loading proxy file: data/clothes\female_casualsuit02\female_casualsuit02.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/female_casualsuit02/female_casualsuit02.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/female_casualsuit02/female_casualsuit02.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+remapping weights for proxy female_casualsuit02
+remapping weights for female_casualsuit02 took 0.08199 seconds
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for female_casualsuit02.obj
+Loaded 2716 deleted verts (2826 faces) from female_casualsuit02 proxy.
+2612 faces masked for base.obj
+do Change clothes
+Selecting proxy file "data/clothes\shoes06\shoes06.mhpxy" from clothes library.
+Loading binary proxy data/clothes\shoes06\shoes06.mhpxy.
+Loading proxy file: data/clothes\shoes06\shoes06.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes06/shoes06.mhmat
+Loaded vertex weights Shoes06 weights from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes06/shoes06.mhw
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes06/shoes06.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for female_casualsuit02.obj
+Loaded 2716 deleted verts (2826 faces) from female_casualsuit02 proxy.
+0 faces masked for shoes06.obj
+Loaded 3206 deleted verts (3150 faces) from shoes06 proxy.
+5686 faces masked for base.obj
+do Change clothes
+do Change hair
+do Change eyebrows
+do Change eyelashes
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for shoes06.obj
+Loaded 3206 deleted verts (3150 faces) from shoes06 proxy.
+3074 faces masked for base.obj
+do Change clothes
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for base.obj
+do Change clothes
+Updating skeleton joint positions
+Done baking animations
+hiding task Mass produce
+showing task Socket
+hiding task Socket
+showing task Download assets
+hiding category Community
+showing category Modelling
+hiding task Download assets
+showing task Gender
+hiding category Modelling
+showing category Geometries
+hiding task Gender
+showing task Clothes
+Creating new file metadata cache C:/Users/joaoa/OneDrive/Documents/makehuman/v1py3/cache/clothes_filecache.mhc
+hiding category Geometries
+showing category Materials
+hiding task Clothes
+showing task Material
+Creating new file metadata cache C:/Users/joaoa/OneDrive/Documents/makehuman/v1py3/cache/material_filecache.mhc
+hiding category Materials
+showing category Pose/Animate
+hiding task Material
+showing task Skeleton
+Loading material from file data/materials/xray.mhmat
+Shader: adding built-in uniform b'gl_ModelViewMatrix'
+Shader: adding built-in uniform b'gl_NormalMatrix'
+Shader: adding built-in uniform b'gl_ModelViewProjectionMatrix'
+VectorUniform(ambient) = [0. 0. 0.]
+VectorUniform(edgefalloff) = [1.]
+VectorUniform(intensity) = [0.7]
+VectorUniform(ambient) = [0. 0. 0.]
+VectorUniform(edgefalloff) = [1.]
+VectorUniform(intensity) = [0.7]
+Creating new file metadata cache C:/Users/joaoa/OneDrive/Documents/makehuman/v1py3/cache/skeleton_filecache.mhc
+hiding category Pose/Animate
+showing category Rendering
+hiding task Skeleton
+showing task Render
+hiding category Rendering
+showing category Settings
+hiding task Render
+showing task General
+hiding category Settings
+showing category Pose/Animate
+hiding task General
+showing task Skeleton
+hiding category Pose/Animate
+showing category Rendering
+hiding task Skeleton
+showing task Render
+hiding category Rendering
+showing category Materials
+hiding task Render
+showing task Material
+Loading material from file data/skins\young_caucasian_male\young_caucasian_male.mhmat
+do Change material of base.obj
+Shader: adding built-in uniform b'gl_NormalMatrix'
+Shader: adding built-in uniform b'gl_ModelViewProjectionMatrix'
+VectorUniform(AdditiveShading) = [0.]
+VectorUniform(AdditiveShading) = [0.]
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/skins/textures/young_lightskinned_male_diffuse.png.
+initTexture: 2048, 2048, False
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/litspheres/lit_standard_skin.png.
+initTexture: 256, 256, False
+Loading material from file data/skins\young_caucasian_male\young_caucasian_male.mhmat
+do Change material of base.obj
+Loading material from file data/skins\young_caucasian_male\young_caucasian_male.mhmat
+do Change material of base.obj
+Loading material from file data/skins\young_caucasian_male\young_caucasian_male_special_suit.mhmat
+do Change material of base.obj
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/skins/textures/young_caucasian_male_special_suit.png.
+initTexture: 2048, 2048, False
+Loading material from file data/skins\young_caucasian_male\young_caucasian_male2.mhmat
+do Change material of base.obj
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/skins/textures/young_lightskinned_male_diffuse2.png.
+initTexture: 2048, 2048, False
+Loading material from file data/skins\young_caucasian_male\young_caucasian_male.mhmat
+do Change material of base.obj
+Loading material from file data/skins\young_caucasian_male\young_caucasian_male2.mhmat
+do Change material of base.obj
+hiding category Materials
+showing category Geometries
+hiding task Material
+showing task Clothes
+hiding task Clothes
+showing task Hair
+Creating new file metadata cache C:/Users/joaoa/OneDrive/Documents/makehuman/v1py3/cache/hair_filecache.mhc
+hiding task Hair
+showing task Teeth
+Creating new file metadata cache C:/Users/joaoa/OneDrive/Documents/makehuman/v1py3/cache/teeth_filecache.mhc
+hiding task Teeth
+showing task Hair
+Selecting proxy file "data/hair\afro01\afro01.mhpxy" from hair library.
+Loading binary proxy data/hair\afro01\afro01.mhpxy.
+Loading proxy file: data/hair\afro01\afro01.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/afro01/afro01.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/afro01/afro01.npz.
+NPZ-File: maxmimum number of faces for one vertex: 4
+remapping weights for proxy afro01
+remapping weights for afro01 took 0.03983 seconds
+do Change hair
+VectorUniform(ambient) = [0. 0. 0.]
+VectorUniform(diffuse) = [0. 0. 0. 0.]
+VectorUniform(emissive) = [0. 0. 0.]
+VectorUniform(specular) = [0. 0. 0. 0.]
+Shader: adding built-in uniform b'gl_NormalMatrix'
+Shader: adding built-in uniform b'gl_ModelViewMatrix'
+Shader: adding built-in uniform b'gl_LightSource[0].ambient'
+Shader: adding built-in uniform b'gl_LightSource[1].ambient'
+Shader: adding built-in uniform b'gl_LightSource[2].ambient'
+Shader: adding built-in uniform b'gl_LightSource[3].ambient'
+Shader: adding built-in uniform b'gl_LightSource[4].ambient'
+Shader: adding built-in uniform b'gl_LightSource[5].ambient'
+Shader: adding built-in uniform b'gl_LightSource[6].ambient'
+Shader: adding built-in uniform b'gl_LightSource[7].ambient'
+Shader: adding built-in uniform b'gl_LightSource[0].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[1].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[2].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[3].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[4].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[5].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[6].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[7].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[0].specular'
+Shader: adding built-in uniform b'gl_LightSource[1].specular'
+Shader: adding built-in uniform b'gl_LightSource[2].specular'
+Shader: adding built-in uniform b'gl_LightSource[3].specular'
+Shader: adding built-in uniform b'gl_LightSource[4].specular'
+Shader: adding built-in uniform b'gl_LightSource[5].specular'
+Shader: adding built-in uniform b'gl_LightSource[6].specular'
+Shader: adding built-in uniform b'gl_LightSource[7].specular'
+Shader: adding built-in uniform b'gl_LightSource[0].position'
+Shader: adding built-in uniform b'gl_LightSource[1].position'
+Shader: adding built-in uniform b'gl_LightSource[2].position'
+Shader: adding built-in uniform b'gl_LightSource[3].position'
+Shader: adding built-in uniform b'gl_LightSource[4].position'
+Shader: adding built-in uniform b'gl_LightSource[5].position'
+Shader: adding built-in uniform b'gl_LightSource[6].position'
+Shader: adding built-in uniform b'gl_LightSource[7].position'
+Shader: adding built-in uniform b'gl_LightSource[0].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[1].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[2].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[3].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[4].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[5].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[6].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[7].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[0].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[1].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[2].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[3].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[4].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[5].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[6].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[7].spotDirection'
+Shader: adding built-in uniform b'gl_LightSource[0].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[1].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[2].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[3].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[4].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[5].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[6].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[7].spotExponent'
+Shader: adding built-in uniform b'gl_LightSource[0].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[1].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[2].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[3].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[4].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[5].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[6].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[7].spotCutoff'
+Shader: adding built-in uniform b'gl_LightSource[0].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[1].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[2].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[3].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[4].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[5].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[6].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[7].spotCosCutoff'
+Shader: adding built-in uniform b'gl_LightSource[0].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[1].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[2].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[3].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[4].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[5].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[6].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[7].constantAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[0].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[1].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[2].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[3].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[4].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[5].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[6].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[7].linearAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[0].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[1].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[2].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[3].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[4].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[5].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[6].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_LightSource[7].quadraticAttenuation'
+Shader: adding built-in uniform b'gl_FrontLightModelProduct.sceneColor'
+Shader: adding built-in uniform b'gl_FrontMaterial.emission'
+Shader: adding built-in uniform b'gl_FrontMaterial.ambient'
+Shader: adding built-in uniform b'gl_FrontMaterial.diffuse'
+Shader: adding built-in uniform b'gl_FrontMaterial.specular'
+Shader: adding built-in uniform b'gl_FrontMaterial.shininess'
+Shader: adding built-in uniform b'gl_ModelViewProjectionMatrix'
+VectorUniform(ambient) = [0. 0. 0.]
+VectorUniform(diffuse) = [0. 0. 0. 0.]
+VectorUniform(emissive) = [0. 0. 0.]
+VectorUniform(specular) = [0. 0. 0. 0.]
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/afro01/afro_diffuse.png.
+initTexture: 2048, 2048, False
+Selecting proxy file "data/hair\bob01\bob01.mhpxy" from hair library.
+Loading binary proxy data/hair\bob01\bob01.mhpxy.
+Loading proxy file: data/hair\bob01\bob01.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/bob01/bob01.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/bob01/bob01.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+remapping weights for proxy bob01
+remapping weights for bob01 took 0.05696 seconds
+do Change hair
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/bob01/bob01_diffuse.png.
+initTexture: 2048, 2048, False
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/litspheres/lit_refl_sharp_aniso_hard.png.
+initTexture: 256, 256, False
+Selecting proxy file "data/hair\bob02\bob02.mhpxy" from hair library.
+Loading binary proxy data/hair\bob02\bob02.mhpxy.
+Loading proxy file: data/hair\bob02\bob02.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/bob02/bob02.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/bob02/bob02.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+remapping weights for proxy bob02
+remapping weights for bob02 took 0.03723 seconds
+do Change hair
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/bob02/bob02_diffuse.png.
+initTexture: 2048, 2048, False
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/litspheres/lit_refl_sharp_aniso_hard_blonde.png.
+initTexture: 256, 256, False
+Selecting proxy file "data/hair\braid01\braid01.mhpxy" from hair library.
+Loading binary proxy data/hair\braid01\braid01.mhpxy.
+Loading proxy file: data/hair\braid01\braid01.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/braid01/braid01.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/braid01/braid01.npz.
+NPZ-File: maxmimum number of faces for one vertex: 4
+remapping weights for proxy Braid01
+remapping weights for Braid01 took 0.07395 seconds
+do Change hair
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/braid01/braid01_diffuse.png.
+initTexture: 2048, 2048, False
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/litspheres/lit_hair.png.
+initTexture: 256, 256, False
+Selecting proxy file "data/hair\short01\short01.mhpxy" from hair library.
+Loading binary proxy data/hair\short01\short01.mhpxy.
+Loading proxy file: data/hair\short01\short01.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short01/short01.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short01/short01.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+remapping weights for proxy short01
+remapping weights for short01 took 0.03539 seconds
+do Change hair
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short01/short01_diffuse.png.
+initTexture: 2048, 2048, False
+Selecting proxy file "data/hair\short02\short02.mhpxy" from hair library.
+Loading binary proxy data/hair\short02\short02.mhpxy.
+Loading proxy file: data/hair\short02\short02.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short02/short02.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short02/short02.npz.
+NPZ-File: maxmimum number of faces for one vertex: 4
+remapping weights for proxy short02
+remapping weights for short02 took 0.03698 seconds
+do Change hair
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short02/short02_diffuse.png.
+initTexture: 2048, 2048, False
+Selecting proxy file "data/hair\short03\short03.mhpxy" from hair library.
+Loading binary proxy data/hair\short03\short03.mhpxy.
+Loading proxy file: data/hair\short03\short03.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short03/short03.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short03/short03.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+remapping weights for proxy short03
+remapping weights for short03 took 0.03052 seconds
+do Change hair
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short03/short03_diffuse.png.
+initTexture: 2048, 2048, False
+Selecting proxy file "data/hair\short02\short02.mhpxy" from hair library.
+Loading binary proxy data/hair\short02\short02.mhpxy.
+Loading proxy file: data/hair\short02\short02.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short02/short02.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short02/short02.npz.
+NPZ-File: maxmimum number of faces for one vertex: 4
+remapping weights for proxy short02
+remapping weights for short02 took 0.03690 seconds
+do Change hair
+Selecting proxy file "data/hair\short03\short03.mhpxy" from hair library.
+Loading binary proxy data/hair\short03\short03.mhpxy.
+Loading proxy file: data/hair\short03\short03.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short03/short03.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short03/short03.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+remapping weights for proxy short03
+remapping weights for short03 took 0.03045 seconds
+do Change hair
+Selecting proxy file "data/hair\short02\short02.mhpxy" from hair library.
+Loading binary proxy data/hair\short02\short02.mhpxy.
+Loading proxy file: data/hair\short02\short02.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short02/short02.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short02/short02.npz.
+NPZ-File: maxmimum number of faces for one vertex: 4
+remapping weights for proxy short02
+remapping weights for short02 took 0.03714 seconds
+do Change hair
+Selecting proxy file "data/hair\short03\short03.mhpxy" from hair library.
+Loading binary proxy data/hair\short03\short03.mhpxy.
+Loading proxy file: data/hair\short03\short03.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short03/short03.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short03/short03.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+remapping weights for proxy short03
+remapping weights for short03 took 0.03039 seconds
+do Change hair
+Selecting proxy file "data/hair\short02\short02.mhpxy" from hair library.
+Loading binary proxy data/hair\short02\short02.mhpxy.
+Loading proxy file: data/hair\short02\short02.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short02/short02.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/hair/short02/short02.npz.
+NPZ-File: maxmimum number of faces for one vertex: 4
+remapping weights for proxy short02
+remapping weights for short02 took 0.03657 seconds
+do Change hair
+hiding task Hair
+showing task Eyes
+Creating new file metadata cache C:/Users/joaoa/OneDrive/Documents/makehuman/v1py3/cache/eyes_filecache.mhc
+hiding task Eyes
+showing task Clothes
+Loading material from file data/materials/xray.mhmat
+Selecting proxy file "data/clothes\male_casualsuit05\male_casualsuit05.mhpxy" from clothes library.
+Loading binary proxy data/clothes\male_casualsuit05\male_casualsuit05.mhpxy.
+Loading proxy file: data/clothes\male_casualsuit05\male_casualsuit05.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/male_casualsuit05/male_casualsuit05.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/male_casualsuit05/male_casualsuit05.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+remapping weights for proxy male_casualsuit05
+remapping weights for male_casualsuit05 took 0.08235 seconds
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for male_casualsuit05.obj
+Loaded 6058 deleted verts (6116 faces) from male_casualsuit05 proxy.
+5902 faces masked for base.obj
+do Change clothes
+Shader: adding built-in uniform b'gl_NormalMatrix'
+Shader: adding built-in uniform b'gl_ModelViewProjectionMatrix'
+VectorUniform(AdditiveShading) = [0.]
+VectorUniform(normalmapIntensity) = [1.]
+VectorUniform(AdditiveShading) = [0.]
+VectorUniform(normalmapIntensity) = [1.]
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/male_casualsuit05/male_casualsuit05_ao.png.
+initTexture: 2048, 2048, False
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/male_casualsuit05/male_casualsuit05_diffuse.png.
+initTexture: 2048, 2048, False
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/litspheres/lit_matte.png.
+initTexture: 256, 256, False
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/male_casualsuit05/male_casualsuit05_normal.png.
+initTexture: 4096, 4096, False
+Selecting proxy file "data/clothes\shoes01\shoes01.mhpxy" from clothes library.
+Loading binary proxy data/clothes\shoes01\shoes01.mhpxy.
+Loading proxy file: data/clothes\shoes01\shoes01.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes01/shoes01.mhmat
+Loaded vertex weights Shoes01 weights from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes01/shoes01.mhw
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes01/shoes01.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for male_casualsuit05.obj
+Loaded 6058 deleted verts (6116 faces) from male_casualsuit05 proxy.
+0 faces masked for shoes01.obj
+Loaded 3206 deleted verts (3150 faces) from shoes01 proxy.
+9012 faces masked for base.obj
+do Change clothes
+Shader: adding built-in uniform b'gl_NormalMatrix'
+Shader: adding built-in uniform b'gl_ModelViewProjectionMatrix'
+VectorUniform(AdditiveShading) = [0.]
+VectorUniform(normalmapIntensity) = [1.]
+VectorUniform(AdditiveShading) = [0.]
+VectorUniform(normalmapIntensity) = [1.]
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes01/shoes01_diffuse.png.
+initTexture: 1024, 1024, False
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/litspheres/lit_refl_sharp.png.
+initTexture: 256, 256, False
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes01/shoes01_normal.png.
+initTexture: 1024, 1024, False
+Selecting proxy file "data/clothes\shoes04\shoes04.mhpxy" from clothes library.
+Loading binary proxy data/clothes\shoes04\shoes04.mhpxy.
+Loading proxy file: data/clothes\shoes04\shoes04.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes04/shoes04.mhmat
+Loaded vertex weights Shoes04 weights from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes04/shoes04.mhw
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes04/shoes04.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for male_casualsuit05.obj
+Loaded 6058 deleted verts (6116 faces) from male_casualsuit05 proxy.
+0 faces masked for shoes01.obj
+Loaded 3206 deleted verts (3150 faces) from shoes01 proxy.
+1660 faces masked for shoes04.obj
+Loaded 3206 deleted verts (3150 faces) from shoes04 proxy.
+9012 faces masked for base.obj
+do Change clothes
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes04/shoes04_diffuse.png.
+initTexture: 1024, 1024, False
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes04/shoes04_normal.png.
+initTexture: 1024, 1024, False
+Selecting proxy file "data/clothes\shoes03\shoes03.mhpxy" from clothes library.
+Loading binary proxy data/clothes\shoes03\shoes03.mhpxy.
+Loading proxy file: data/clothes\shoes03\shoes03.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes03/shoes03.mhmat
+Loaded vertex weights Shoes03 weights from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes03/shoes03.mhw
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes03/shoes03.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for male_casualsuit05.obj
+Loaded 6058 deleted verts (6116 faces) from male_casualsuit05 proxy.
+0 faces masked for shoes03.obj
+Loaded 3206 deleted verts (3150 faces) from shoes03 proxy.
+1660 faces masked for shoes01.obj
+Loaded 3206 deleted verts (3150 faces) from shoes01 proxy.
+1660 faces masked for shoes04.obj
+Loaded 3206 deleted verts (3150 faces) from shoes04 proxy.
+9012 faces masked for base.obj
+do Change clothes
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/clothes/shoes03/shoes03_diffuse.png.
+initTexture: 1024, 1024, False
+hiding task Clothes
+showing task Eyelashes
+Creating new file metadata cache C:/Users/joaoa/OneDrive/Documents/makehuman/v1py3/cache/eyelashes_filecache.mhc
+Selecting proxy file "data/eyelashes\eyelashes01\eyelashes01.mhpxy" from eyelashes library.
+Loading binary proxy data/eyelashes\eyelashes01\eyelashes01.mhpxy.
+Loading proxy file: data/eyelashes\eyelashes01\eyelashes01.mhpxy.
+Loading material from file C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyelashes/eyelashes01/eyelashes01.mhmat
+Loading binary mesh C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyelashes/eyelashes01/eyelashes01.npz.
+NPZ-File: maxmimum number of faces for one vertex: 4
+remapping weights for proxy Eyelashes01
+remapping weights for Eyelashes01 took 0.02957 seconds
+do Change eyelashes
+Creating new texture for image C:/Users/joaoa/AppData/Local/makehuman-community/makehuman/data/eyelashes/eyelashes01/eyelashes01.png.
+initTexture: 512, 512, False
+do Change eyelashes
+hiding task Eyelashes
+showing task Topologies
+Creating new file metadata cache C:/Users/joaoa/OneDrive/Documents/makehuman/v1py3/cache/proxymeshes_filecache.mhc
+hiding task Topologies
+showing task Teeth
+hiding task Teeth
+showing task Hair
+hiding category Geometries
+showing category Materials
+hiding task Hair
+showing task Material
+hiding category Materials
+showing category Pose/Animate
+hiding task Material
+showing task Skeleton
+hiding task Skeleton
+showing task Pose
+Creating new file metadata cache C:/Users/joaoa/OneDrive/Documents/makehuman/v1py3/cache/pose_filecache.mhc
+hiding task Pose
+showing task Expressions
+Creating new file metadata cache C:/Users/joaoa/OneDrive/Documents/makehuman/v1py3/cache/expression_filecache.mhc
+Automatically guessed coordinate system for BVH file data/poseunits/face-poseunits.bvh (Z-up)
+unit pose frame count:60
+Loading expression from data/expressions\determination01.mhpose
+Updating baked animation expr-lib-pose (1 frames)
+Compiling vertex bone weights for base.obj
+Compiling vertex bone weights for high-poly.obj
+Compiling vertex bone weights for short02.obj
+Compiling vertex bone weights for male_casualsuit05.obj
+Compiling vertex bone weights for shoes01.obj
+Compiling vertex bone weights for shoes04.obj
+Compiling vertex bone weights for shoes03.obj
+do Load expression
+Loading expression from data/expressions\determination02.mhpose
+./shared\animation.py:466: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
+  data[bonesList] = pose2.getAtFramePos(0, noBake=True)[[bonesList]]
+
+Updating baked animation expr-lib-pose (1 frames)
+do Load expression
+hiding category Pose/Animate
+showing category Rendering
+hiding task Expressions
+showing task Render
+hiding category Rendering
+showing category Settings
+hiding task Render
+showing task General
+hiding category Settings
+showing category Utilities
+hiding task General
+showing task Logs
+hiding category Utilities
+showing category Settings
+hiding task Logs
+showing task General
+hiding category Settings
+showing category Rendering
+hiding task General
+showing task Render
+hiding category Rendering
+showing category Pose/Animate
+hiding task Render
+showing task Expressions
+hiding category Pose/Animate
+showing category Rendering
+hiding task Expressions
+showing task Render
+hiding category Rendering
+showing category Settings
+hiding task Render
+showing task General
+hiding task General
+showing task Plugins
+hiding category Settings
+showing category Materials
+hiding task Plugins
+showing task Material
+hiding category Materials
+showing category Geometries
+hiding task Material
+showing task Hair
+hiding category Geometries
+showing category Modelling
+hiding task Hair
+showing task Gender
+hiding task Gender
+showing task Macro modelling
+hiding task Macro modelling
+showing task Gender
+hiding task Gender
+showing task Face
+hiding task Face
+showing task Custom
+hiding task Custom
+showing task Measure
+hiding task Measure
+showing task Arms and Legs
+hiding task Arms and Legs
+showing task Torso
+hiding task Torso
+showing task Face
+hiding category Modelling
+showing category Files
+hiding task Face
+showing task Load
+Creating new file metadata cache C:/Users/joaoa/OneDrive/Documents/makehuman/v1py3/cache/models_filecache.mhc
+grabScreen: 341 0 779 779
+glReadPixels: 341 0 776 779
+hiding task Load
+showing task Save
+grabScreen: 341 0 779 779
+glReadPixels: 341 0 776 779
+grabScreen: 341 0 779 779
+glReadPixels: 341 0 776 779
+grabScreen: 341 0 779 779
+glReadPixels: 341 0 776 779

@@ -1,0 +1,37 @@
+VERSION: 1.2.0 final
+SHORT VERSION: final
+LONG VERSION: 1.2.0 final (HEAD:c28443c2)
+BASEMESH VERSION: hm08
+IS BUILT (FROZEN): No
+IS RELEASE VERSION: Yes
+DEFAULT ENCODING: utf-8
+FILESYSTEM ENCODING: utf-8
+STDOUT ENCODING: cp1252
+LOCALE PREFERRED ENCODING: cp1252
+WORKING DIRECTORY: C:\Users\joaoa\AppData\Local\makehuman-community\makehuman
+HOME LOCATION: C:/Users/joaoa/OneDrive/Documents
+PYTHON PATH: ./;./lib;./apps;./shared;./apps/gui;./core;C:\Users\joaoa\AppData\Local\makehuman-community\Python\python37.zip;C:\Users\joaoa\AppData\Local\makehuman-community\Python;C:\Users\joaoa\AppData\Local\makehuman-community\pkgs
+DLL PATH: C:\Users\joaoa\AppData\Local\makehuman-community\pkgs\PyQt5\Qt\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\joaoa\AppData\Local\Microsoft\WindowsApps;C:\Users\joaoa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\joaoa\AppData\Local\GitHubDesktop\bin
+SYS.VERSION: 3.7.6 (tags/v3.7.6:43364a7ae0, Dec 19 2019, 00:42:30) [MSC v.1916 64 bit (AMD64)]
+SYS.PLATFORM: win32
+SYS.EXECUTABLE: C:\Users\joaoa\AppData\Local\makehuman-community\Python\pythonw.exe
+PLATFORM.MACHINE: AMD64
+PLATFORM.PROCESSOR: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+PLATFORM.UNAME.RELEASE: 10
+PLATFORM.WIN32_VER: 10 10.0.22621 SP0 
+NUMPY.VERSION: 1.18.1
+QT.VERSION: 5.12.7
+QT.JPG_SUPPORT: supported
+QT.SVG_SUPPORT: supported
+QT.PLUGIN_PATH: C:/Users/joaoa/AppData/Local/makehuman-community/pkgs/PyQt5/Qt/plugins;C:/Users/joaoa/AppData/Local/makehuman-community/Python
+QT.PLUGIN_PATH_ENV: 
+QT.CONF: NOT PRESENT
+PYOPENGL.VERSION: 3.1.0
+NOSHADERS: not set
+NOSAMPLEBUFFERS: not set
+GL.VENDOR: Intel
+GL.RENDERER: Intel(R) Iris(R) Xe Graphics
+GL.VERSION: 4.6.0 - Build 31.0.101.4032
+GLSL.VERSION: 4.60 - Build 31.0.101.4032
+GL.EXTENSION: GL_ARB_multisample enabled (4x samples)
+GL.EXTENSION: GL_ARB_texture_non_power_of_two enabled
